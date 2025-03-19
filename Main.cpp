@@ -13,24 +13,24 @@ int main()
 	
 	while (true)
 	{
-		int number;
+		std::string number;
 		std::cout << "\t\t\tПлуйлист Пашка\n\n";
 		std::cout << "1 - Мяу мяу мяу мяу \n2 - Матушка земля\n3 - До, Ре, Ми, Фа, Соль, Ля, Си \n0 - Закрыть\n\nЧто послушаем? ";
 		std::cin >> number;
 		system("cls");
-		if (number == 0)
+		if (number == "0")
 		{
 			break;
 		}
-		else if (number == 1)
+		else if (number == "1")
 		{
 			a.PlayTrack();
 		}
-		else if (number == 2)
+		else if (number == "2")
 		{
 			b.PlayTrack();
 		}
-		else if (number == 3)
+		else if (number == "3")
 		{
 			z.PlayTrack();
 		}
